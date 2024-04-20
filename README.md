@@ -68,3 +68,33 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+
+
+// # Food Recipe Finder
+
+This project is a web application that allows users to search for their favorite recipes. It provides a user interface to input search queries and displays a list of recipes based on the search criteria.
+
+ I am using this  API's 
+
+   1:- This Api is using for home page searching food recipe(`https://api.edamam.com/search?q=${search}&app_id=03772fa2&app_key=be3af6637cd3e810e74391368e218459`
+      )
+
+## Features
+
+- Login: Users can log in using their username and password. An error message is displayed for incorrect login credentials.
+
+- Home Page: The home page welcomes users and prompts them to search for their favorite recipe. Clicking the "Search" button takes the user to the search results page.
+
+- Search Results: The search results page displays a list of recipe cards. Clicking on a card opens a details view with more information about the recipe.
+
+- Pagination: The pagination component divides the search results into pages and allows the user to navigate through them.
+
+- Recipe Details: The details view provides additional information about a selected recipe, including the recipe name, diet label, source, cuisine type, dish type, meal type, total time, and a list of ingredients required. It also includes a link to view more details about the recipe.
+
+## Technologies Used
+
+- React: The project is built using the React library for building user interfaces.
+
+- CSS: Styling is applied using CSS to create an attractive and responsive user interface.
